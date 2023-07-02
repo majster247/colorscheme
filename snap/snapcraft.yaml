@@ -10,3 +10,7 @@ parts:
   my-part:
     # See 'snapcraft plugins'
     plugin: nil
+
+apps:
+  colorscheme:
+    command: bash main.sh
